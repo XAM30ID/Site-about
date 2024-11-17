@@ -1,0 +1,103 @@
+:root {
+    --text-color: #B200FF;
+    --back-color: #282828;
+}
+
+body {
+    background-color: var(--back-color);
+}
+
+section {
+    width: 100%;
+    padding: 50px 70px 40px;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    font-family: 'Jura';
+    color: var(--text-color);
+    padding: 50px;
+    border-radius: 25px;
+    gap: 100px;
+}
+
+.first-block__image {
+    border-radius: 25px;
+    border: 5px var(--text-color) solid;
+    box-sizing: border-box;
+    width: 700px;
+    height: fit-content;
+}
+    
+.first-block__text {
+    font-size: 24px;
+    width: 700px;
+    line-height: 140%;
+}
+
+.first-block__text p {
+    margin-top: 20px;
+}
+
+.first-block__title {
+    font-size: 32px;
+}
+
+.first-block__bold {
+    font-weight: 600;
+}
+
+.second-block {
+    padding: 0 70px;
+    padding-bottom: 50px;
+}
+
+.second-block__image {
+    border-radius: 25px;
+    border: 5px var(--text-color) solid;
+    box-sizing: border-box;
+    width: 700px;
+    height: fit-content;
+}
+
+.second-block__container {
+    display: block;
+}
+
+.second-block__main-part {
+    display: flex;
+    gap: 50px;
+    font-size: 24px;
+    line-height: 140%;
+}
+
+.second-block__text p {
+    margin-top: 40px;
+}
+
+.contacts-block {
+    width: 100%;
+    color: var(--text-color);
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts-block {
+    margin-top: 50px;
+    font-size: 24px;
+}
+
+.contacts-block a {
+    display:inline-block;
+    color: var(--text-color);
+    text-decoration: none;
+    font-weight: 600;
+    border-bottom: 1px var(--text-color) solid;
+    margin-left: 10px;
+    transition: .3s;
+}
+
+.contacts-block a:hover {
+    scale: 1.05;
+}

@@ -1,0 +1,129 @@
+:root {
+    --text-color: black;
+    --back-color: white;
+}
+
+.first-block {
+    background-color: #ddd;
+    font-family: 'Jura';
+}
+
+.first-block__container {
+    display: flex;
+    padding: 50px 70px;
+    justify-content: space-between;
+}
+
+.first-block__image {
+    width: 600px;
+    height: fit-content;
+    border: 3px #7F7F7F solid;
+    border-radius: 15px;
+}
+
+.first-block__title {
+    display: block;
+    font-size: 32px;
+    margin-bottom: 50px;
+}
+
+.first-block__bold {
+    font-weight: 600;
+}
+
+.first-block__text {
+    font-size: 24px;
+    margin-top: 30px;
+    width: 700px;
+    line-height: 130%;
+}
+
+
+
+
+.second-block {
+    font-family: 'Jura';
+}
+
+.second-block__container {
+    display: flex;
+    padding: 50px 70px;
+    justify-content: space-between;
+}
+
+.second-block__image {
+    width: 600px;
+    height: fit-content;
+    border: 3px #7F7F7F solid;
+    border-radius: 15px;
+}
+
+.second-block__bold {
+    font-weight: 600;
+}
+
+.second-block__text {
+    font-size: 24px;
+    margin-top: 30px;
+    width: 700px;
+    line-height: 140%;
+}
+
+.second-block__text p {
+    margin-bottom: 15px;
+}
+
+
+
+.contacts-block__social-ico {
+    width: 30px;
+}
+
+.contacts-block__link {
+    padding: 0;
+    text-decoration: none;
+    display: block;
+    color: black;
+    font-weight: 600;
+    width: fit-content;
+    transition: .5s;
+}
+
+.contacts-block__link:hover {
+    scale: 1.15;
+}
+
+.contacts-block__own-contacts {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    width: 20%;
+    justify-content: space-between;
+}
+
+.contacts-block {
+    background-color: #ddd;
+    font-family: 'Jura';
+}
+
+.contacts-block__container {
+    padding: 50px 70px;
+    font-size: 24px;
+    line-height: 140%;
+}
+
+.contacts-block__title {
+    display: block;
+    margin-bottom: 50px;
+}
+
+.contacts-block__bold {
+    font-weight: 600;
+}
+
+.contacts-block__text {
+    font-size: 24px;
+    margin-top: 30px;
+    width: 700px;
+    line-height: 130%;
+}
